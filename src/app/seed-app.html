@@ -1,0 +1,6 @@
+<toggler [(ngModel)]="model" #ctrl="ngForm"></toggler>
+<div>model: {{model ? "yes" : "no"}}</div>
+<div>control.value: {{ctrl.value ? "yes" : "no"}}</div>
+<div>control.valid: {{ctrl.valid ? "yes" : "no"}}</div>
+<div>control.pristine: {{ctrl.pristine ? "yes" : "no"}}</div>
+<div>control.touched: {{ctrl.touched ? "yes" : "no"}}</div>
